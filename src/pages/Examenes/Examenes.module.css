@@ -1,0 +1,67 @@
+.styles {
+  width: 100vw;
+  height: 100%;
+}
+
+.examenes_section {
+  margin-top: 65px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: columns;
+  justify-content: center;
+}
+
+.examenes_section Examen {
+  flex: 1 1 100px;
+}
+
+.content {
+  margin-left: 50px;
+  margin-right: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+.searchContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin-top: 80px;
+  background-color: rgb(65, 108, 151);
+  border-radius: 20px;
+  box-shadow: 0 10px 40px rgb(73, 115, 171), 0 0 0 20px #ffffffeb;
+  transform: scale(0.6);
+}
+
+.searchContainer input {
+  color: #fff;
+  font-family: Nunito;
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+.searchContainer input[type="text"] {
+  width: 100%;
+  height: 30px;
+  font-size: 35px;
+  line-height: 1;
+}
+
+.searchContainer input[type="text"]::placeholder {
+  color: white;
+}
+
+.searchButton {
+  background-color: #ccc;
+  border: 1px solid black;
+  color: black;
+  font-size: 16px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.searchButton:hover {
+  background-color: #3e8e41;
+}

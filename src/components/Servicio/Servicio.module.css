@@ -1,0 +1,15 @@
+.styles {
+  max-width: 600px;
+  min-width: 400px;
+  max-height: 100px;
+  height: 100%;
+  border: solid;
+  border-radius: 30px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+  color: black;
+}

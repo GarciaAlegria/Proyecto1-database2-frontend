@@ -1,0 +1,19 @@
+import { expect, afterEach } from 'vitest'
+import { cleanup } from '@testing-library/react'
+import matchers from '@testing-library/jest-dom/matchers'
+
+expect.extend(matchers)
+
+afterEach(() => {
+  cleanup()
+})
+
+window.matchMedia =
+    window.matchMedia ||
+    function() {
+        return {
+            matches: false,
+            addListener: function() {},
+            removeListener: function() {}
+        };
+    };
